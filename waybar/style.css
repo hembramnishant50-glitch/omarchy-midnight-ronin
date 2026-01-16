@@ -1,0 +1,72 @@
+/* Global Reset */
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+}
+
+/* The Main Bar Container */
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.6);
+    color: #c0caf5;
+    border-radius: 12px;
+}
+
+/* Individual Module Containers */
+#custom-omarchy,
+#workspaces,
+#clock,
+#custom-weather,
+#network,
+#pulseaudio,
+#battery,
+#custom-power {
+    background-color: rgba(36, 40, 59, 0.5);
+    padding: 0px 10px;
+    margin: 3px 2px;
+    border-radius: 8px;
+    color: #c0caf5;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effects for Interactivity */
+#custom-omarchy:hover,
+#network:hover,
+#custom-power:hover {
+    background-color: rgba(122, 162, 247, 0.3);
+}
+
+/* Center Clock Styling */
+#clock {
+    background: rgba(187, 154, 247, 0.15);
+    min-width: 80px;
+}
+
+/* Colorful Workspace Numbers */
+#workspaces button:nth-child(1) { color: #f7768e; }
+#workspaces button:nth-child(2) { color: #9ece6a; }
+#workspaces button:nth-child(3) { color: #e0af68; }
+#workspaces button:nth-child(4) { color: #bb9af7; }
+
+#workspaces button.active {
+    background: rgba(122, 162, 247, 0.15);
+    border-radius: 6px;
+}
+
+/* --- TOOLTIP STYLING --- */
+tooltip {
+    background: #1a1b26;
+    border: 1px solid #7aa2f7;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+tooltip label {
+    color: #c0caf5;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#calendar {
+    padding: 5px;
+}

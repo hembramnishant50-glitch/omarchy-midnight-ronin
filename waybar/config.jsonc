@@ -1,0 +1,61 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32, 
+    "margin-top": 5,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 4,
+
+    "modules-left": ["custom/omarchy", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["custom/weather", "network", "pulseaudio", "battery", "custom/power"],
+
+    "custom/omarchy": {
+        "format": " <span color='#7aa2f7'>󰣇</span> ",
+        "on-click": "omarchy-menu",
+        "tooltip": false
+    },
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "persistent-workspaces": { "1": [], "2": [], "3": [], "4": [] }
+    },
+
+    "clock": {
+        "interval": 60,
+        "format": "<span color='#7aa2f7'> </span>{:%I:%M %p}", 
+        "format-alt": "<span color='#e0af68'> </span>{:%d %b, %Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "custom/weather": {
+        "exec": "python ~/.config/waybar/scripts/weather.py",
+        "return-type": "json",
+        "interval": 1800,
+        "tooltip": true
+    },
+
+    "network": {
+        "format-wifi": "<span color='#b4f9f8'> </span> {essid}",
+        "format-disconnected": "<span color='#f7768e'>󰖪 </span>",
+        "on-click": "omarchy-launch-wifi", // Change this to your specific wifi script if needed
+    },
+
+    "pulseaudio": {
+        "format": "<span color='#9ece6a'>{icon}</span> {volume}%",
+        "format-icons": { "default": ["", "", ""] }
+    
+    },
+
+    "battery": {
+        "format": "<span color='#e0af68'>{icon}</span> {capacity}%",
+        "format-charging": "<span color='#9ece6a'>󱐋</span> {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "custom/power": {
+        "format": " <span color='#f7768e'>⏻ </span>",
+        "on-click": "omarchy-menu system"
+    }
+}
