@@ -18,12 +18,16 @@
 </div>
 
 * **How to Edit the Location:** Locate this line in your script:   weather = requests.get("https://wttr.in/Purnia?format=j1").json()
-* <div align="center">
-<pre><code>weather = requests.get("https://wttr.in/Purnia?format=j1").json()</code></pre>
-</div>
- 
-* 
-* **Set Your Location:** Open scripts/weather.py and locate the fetch line: Fetch Data: Find the line below and replace Purnia with your own city (e.g., London, Tokyo, or New-York).
+
+* **Replace Purnia with your desired location. Here are the three best ways to format it:**
+
+City Name: https://wttr.in/London?format=j1
+
+City and Country: Use a plus sign (+) for spaces.
+
+Example: https://wttr.in/New+York?format=j1
+
+Zip/Postal Code: * Example: https://wttr.in/90210?format=j1
 
 ---
 
