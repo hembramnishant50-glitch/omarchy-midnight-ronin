@@ -22,7 +22,7 @@
 
 * **How to Edit the Location:** Locate this line in your script:   weather = requests.get("https://wttr.in/Purnia?format=j1").json()
 
-* **Replace Purnia with your desired location. Here are the three best ways to format it* **
+* **Replace Purnia with your desired location. Here are the three best ways to format it
 
 * **City Name: https://wttr.in/London?format=j1* **
 
