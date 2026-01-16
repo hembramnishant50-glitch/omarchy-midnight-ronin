@@ -11,8 +11,8 @@
 ## 🗡️ About the Theme
 **Omarchy Midnight Ronin** is a high-performance "rice" for users who value aesthetics without sacrificing speed. It blends the deep, calming purples of the midnight sky with the sharp, precise lines of a samurai aesthetic.
 
-### ✨ Key Features
-* **Compositor:** [Hyprland](https://hyprland.org/)
+### ✨ Requirements & Dependencies
+* **Install Dependencies:** pip install requests
 * **Status Bar:** Floating pill-style [Waybar](https://github.com/Alexays/Waybar)
 * **Color Palette:** [Catppuccin Mocha](https://catppuccin.com/)
 * **App Launcher:** Custom [Rofi](https://github.com/davatorium/rofi)
