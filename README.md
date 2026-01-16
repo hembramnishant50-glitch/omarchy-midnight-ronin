@@ -1,11 +1,11 @@
 # Artzen - Elegant dark theme for Omarchy
 
-A calm and artful theme that brings balanced darkness to your desktop environment. Artzen combines aesthetic dark tones with smooth readability and animated transitions, creating a sophisticated and serene workspace. Built specifically for Omarchy, this theme provides consistent styling across your window manager, terminal, applications, and system components with artistic minimal design and balanced contrast for clear visibility.
+
 
 
 | Preview |
 | :--: |
-| ![preview](https://github.com/tahfizhabib/omarchy-artzen-theme/blob/4be3b5671b629bd9f6a132238d8631658bd35f7b/media/preview.png) |
+| ![preview]<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b911ab29-916f-4cc5-9357-be04853a5f2e" />
 
 ## Installation
 
