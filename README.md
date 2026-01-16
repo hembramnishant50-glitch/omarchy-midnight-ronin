@@ -26,13 +26,13 @@ chmod +x ~/.config/hypr/scripts/weather.py
 
 * Replace Purnia with your desired location. Here are the three best ways to format it
 
-* City Name: https://wttr.in/London?format=j1
+* 1. City Name: https://wttr.in/London?format=j1
 
-* City and Country: Use a plus sign (+) for spaces.
+* 2. City and Country: Use a plus sign (+) for spaces.
 
-* Example: https://wttr.in/New+York?format=j1
+*    Example: https://wttr.in/New+York?format=j1
 
-* Zip/Postal Code: * Example: https://wttr.in/90210?format=j1
+* 3. Zip/Postal Code: Example: https://wttr.in/90210?format=j1
 
 ---
 
