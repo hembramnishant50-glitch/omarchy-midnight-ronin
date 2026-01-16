@@ -26,4 +26,4 @@
 To get this setup running on your system, use the custom Omarchy installation command:
 
 ```bash
-omarchy-theme-install [https://github.com/hembramnishant50-glitch/omarchy-midnight-ronin.git](https://github.com/hembramnishant50-glitch/omarchy-midnight-ronin.git)
+omarchy-theme-install https://github.com/hembramnishant50-glitch/omarchy-midnight-ronin.git
