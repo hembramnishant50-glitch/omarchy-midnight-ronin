@@ -17,7 +17,9 @@
 ### ✨ Requirements & Dependencies
 * **Install Dependencies:**  pip install requests + To run scripts/weather.py
 <div align="center">
-<pre><code>pip install requests --break-system-packages && chmod +x ~/.config/hypr/scripts/weather.py</code></pre>
+<pre><code>sudo pacman -S python-requests
+chmod +x ~/.config/hypr/scripts/weather.py
+</code></pre>
 </div>
 
 * **How to Edit the Location:** Locate this line in your script:   weather = requests.get("https://wttr.in/Purnia?format=j1").json()
