@@ -13,8 +13,10 @@
 
 ### ✨ Requirements & Dependencies
 * **Install Dependencies:** pip install requests
-* **Status Bar:** Floating pill-style [Waybar](https://github.com/Alexays/Waybar)
-* **Color Palette:** [Catppuccin Mocha](https://catppuccin.com/)
+* **Make the Script Executable:** chmod +x ~/.config/hypr/scripts/weather.py
+* 
+* **Set Your Location:** Open scripts/weather.py and locate the fetch line: Fetch Data: Find the line below and replace Purnia with your own city (e.g., London, Tokyo, or New-York).
+* 
 * **App Launcher:** Custom [Rofi](https://github.com/davatorium/rofi)
 * **Terminal:** Alacritty (Configured for speed)
 * **Shell:** Zsh with Starship prompt
