@@ -1,0 +1,54 @@
+/* Tokyo Night Glassy Palette */
+@define-color bg rgba(26, 27, 38, 0.85); 
+@define-color blue #7aa2f7;
+@define-color purple #bb9af7;
+@define-color fg #c0caf5;
+@define-color selection rgba(122, 162, 247, 0.25);
+@define-color input_bg rgba(36, 40, 59, 0.6);
+
+window {
+    font-family: "JetBrainsMono Nerd Font";
+    background-color: @bg;
+    color: @fg;
+    border: 1px solid @blue; /* Match your thin 1px window border */
+    border-radius: 12px;
+}
+
+#outer-box {
+    padding: 20px;
+    background-color: transparent;
+}
+
+#input {
+    background-color: @input_bg;
+    color: @fg;
+    border: 1px solid rgba(187, 154, 247, 0.4); 
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#entry {
+    padding: 10px;
+    margin: 2px 0px;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: @selection;
+    border-left: 3px solid @blue; /* Vertical accent for selection */
+    outline: none;
+}
+
+#text:selected {
+    color: @blue;
+    font-weight: bold;
+}
+
+#img {
+    margin-right: 12px;
+}
+
+scrollbar {
+    width: 0px; /* Hide scrollbar for the clean minimalist look */
+}

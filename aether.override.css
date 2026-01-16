@@ -1,0 +1,83 @@
+/* Tokyo Night Glassy - Aether Override Template */
+
+/* Dynamic Color Palette - Tokyo Night */
+@define-color background #1a1b26;
+@define-color foreground #c0caf5;
+
+@define-color color0 #15161e; /* Deep Black */
+@define-color color1 #f7768e; /* Red */
+@define-color color2 #9ece6a; /* Green */
+@define-color color3 #e0af68; /* Yellow */
+@define-color color4 #7aa2f7; /* Blue */
+@define-color color5 #bb9af7; /* Magenta */
+@define-color color6 #7dcfff; /* Cyan */
+@define-color color7 #a9b1d6; /* White */
+@define-color color8 #414868; /* Bright Black (Gray) */
+@define-color color9 #f7768e;
+@define-color color10 #9ece6a;
+@define-color color11 #e0af68;
+@define-color color12 #7aa2f7;
+@define-color color13 #bb9af7;
+@define-color color14 #7dcfff;
+@define-color color15 #c0caf5;
+
+/* Base GTK theme variables */
+@define-color theme_bg_color @background;
+@define-color theme_fg_color @foreground;
+@define-color theme_base_color @background;
+@define-color theme_text_color @foreground;
+@define-color theme_selected_bg_color @color4;
+@define-color theme_selected_fg_color @background;
+
+/* Adwaita Color Overrides */
+@define-color accent_bg_color @color4;
+@define-color accent_fg_color @background;
+@define-color accent_color @color6;
+
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+
+/* Sidebar and View - Using Tokyo Night Storm variants */
+@define-color view_bg_color #1a1b26;
+@define-color sidebar_bg_color #16161e;
+
+/* Headerbar Glassy effect */
+@define-color headerbar_bg_color rgba(26, 27, 38, 0.7);
+@define-color headerbar_fg_color @foreground;
+@define-color headerbar_border_color rgba(122, 162, 247, 0.2);
+
+@define-color card_bg_color rgba(255, 255, 255, 0.05);
+@define-color card_fg_color @foreground;
+
+/* Tooltips & Popovers */
+@define-color popover_bg_color #1f2335;
+@define-color tooltip_bg_color #1f2335;
+@define-color tooltip_border_color @color4;
+
+/* Selection colors */
+@define-color selection_bg_color alpha(@color4, 0.3);
+@define-color selection_fg_color @foreground;
+
+/* Scrollbar colors - Match Tokyo Night Purple */
+@define-color scrollbar_slider_color alpha(@color5, 0.4);
+@define-color scrollbar_slider_hover_color alpha(@color5, 0.6);
+@define-color scrollbar_slider_active_color @color5;
+
+/* Links */
+@define-color link_color @color6;
+@define-color link_visited_color @color5;
+
+/* SVG Icons - Recolor for Tokyo Night Blue-ish foreground */
+.svg-icon {
+    filter: invert(82%) sepia(10%) saturate(1001%) hue-rotate(190deg) brightness(98%) contrast(92%);
+}
+
+/* Rounded Corners - Synced to Hyprland/Waybar/Mako/SwayOSD */
+* {
+    border-radius: 12px;
+}
+
+/* Ensure buttons and entries don't look overly bubbly */
+button, entry {
+    border-radius: 8px;
+}

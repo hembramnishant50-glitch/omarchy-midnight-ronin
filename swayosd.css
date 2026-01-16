@@ -1,0 +1,59 @@
+/* Tokyo Night Glassy Palette */
+@define-color background-color rgba(26, 27, 38, 0.85); 
+@define-color border-color     #7aa2f7; /* Tokyo Night Blue */
+@define-color label            #c0caf5;
+@define-color image            #7aa2f7;
+@define-color progress         #bb9af7; /* Tokyo Night Magenta */
+@define-color trough_bg        rgba(65, 72, 104, 0.3);
+
+window {
+    background-color: transparent;
+    border-radius: 12px;
+}
+
+.osd {
+    background-color: @background-color;
+    /* Thin 1px border to match your Hyprland settings */
+    border: 1px solid @border-color;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+image {
+    color: @image;
+    -gtk-icon-size: 48px;
+    margin: 0 16px 0 0;
+}
+
+label {
+    color: @label;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+progressbar {
+    border-radius: 10px;
+    margin-top: 10px;
+    min-height: 12px;
+    min-width: 220px;
+}
+
+/* Specific Trough Styling */
+progressbar trough {
+    background: @trough_bg;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Gradient Progress matching your window border style */
+progressbar progress {
+    background: linear-gradient(90deg, @border-color, @progress);
+    border-radius: 10px;
+    border: none;
+}
+
+/* Support for older GTK syntax if needed */
+progressbar > trough { background: @trough_bg; border-radius: 10px; }
+progressbar > trough > progress { background: linear-gradient(90deg, @border-color, @progress); border-radius: 10px; }

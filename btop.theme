@@ -1,0 +1,62 @@
+# ────────────────────────────────────────────────────────────
+# BTOP THEME — Tokyo Night Glassy Edition
+# ────────────────────────────────────────────────────────────
+
+# Main background 
+# Empty allows your Terminal (Ghostty/Kitty/Alacritty) blur to show through
+theme[main_bg]=""
+
+# Main text - Tokyo Night Foreground #c0caf5
+theme[main_fg]="#c0caf5"
+
+# Titles - Tokyo Blue #7aa2f7
+theme[title]="#7aa2f7"
+
+# Highlight text - Tokyo Cyan #7dcfff
+theme[hi_fg]="#7dcfff" 
+
+# Selected row background - Deep Navy #292e42
+theme[selected_bg]="#292e42" 
+
+# Selected row text - Tokyo Purple #bb9af7
+theme[selected_fg]="#bb9af7"
+
+# Inactive/dim text - Darker Gray #565f89
+theme[inactive_fg]="#565f89"
+
+# Box outlines - Tokyo Blue
+theme[cpu_box]="#7aa2f7"
+theme[mem_box]="#7aa2f7"
+theme[net_box]="#7aa2f7"
+theme[proc_box]="#7aa2f7"
+theme[div_line]="#292e42"
+
+# Graph gradients - Deep Navy to Tokyo Blue
+theme[cpu_start]="#24283b"
+theme[cpu_mid]="#7dcfff"
+theme[cpu_end]="#7aa2f7"
+
+theme[free_start]="#24283b"
+theme[free_mid]="#7dcfff"
+theme[free_end]="#7aa2f7"
+
+# Memory - Deep Navy to Tokyo Purple
+theme[mem_start]="#24283b"
+theme[mem_mid]="#9d7cd8"
+theme[mem_end]="#bb9af7"
+
+theme[net_start]="#24283b"
+theme[net_mid]="#7dcfff"
+theme[net_end]="#7aa2f7"
+
+# Temperature - Blue to Purple Gradient
+theme[temp_start]="#7aa2f7"
+theme[temp_mid]="#9d7cd8"
+theme[temp_end]="#bb9af7"
+
+# Process bars
+theme[proc_misc]="#bb9af7"
+theme[upload_start]="#24283b"
+theme[upload_end]="#7aa2f7"
+theme[download_start]="#24283b"
+theme[download_end]="#bb9af7"

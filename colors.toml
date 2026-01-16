@@ -1,0 +1,29 @@
+# --- TOKYO NIGHT STORM MATCH ---
+accent = "#7aa2f7"
+active_border_color = "#7aa2f7"
+active_tab_background = "#7aa2f7"
+
+# Brighter foreground for better clarity on transparent windows
+cursor = "#c0caf5"
+foreground = "#c0caf5"
+background = "#1a1b26"
+selection_foreground = "#c0caf5"
+selection_background = "#33467c" # Deeper blue for better text contrast
+
+# --- TOKYO NIGHT PALETTE ---
+color0 = "#15161e" # Darker black for better depth
+color1 = "#f7768e" # Red
+color2 = "#9ece6a" # Green
+color3 = "#e0af68" # Yellow
+color4 = "#7aa2f7" # Blue
+color5 = "#bb9af7" # Purple (Updated from #ad8ee6)
+color6 = "#7dcfff" # Cyan (Updated for vibrancy)
+color7 = "#a9b1d6" # White (Standard)
+color8 = "#414868" # Bright Black (Gray)
+color9 = "#f7768e" # Bright Red
+color10 = "#9ece6a" # Bright Green
+color11 = "#e0af68" # Bright Yellow
+color12 = "#7aa2f7" # Bright Blue
+color13 = "#bb9af7" # Bright Purple
+color14 = "#7dcfff" # Bright Cyan
+color15 = "#c0caf5" # Bright White

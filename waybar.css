@@ -1,0 +1,62 @@
+/* Tokyo Night Color Palette */
+@define-color background rgba(26, 27, 38, 0.65); /* Glassy transparency */
+@define-color foreground #c0caf5;
+@define-color blue       #7aa2f7;
+@define-color purple     #bb9af7;
+@define-color cyan       #7dcfff;
+@define-color green      #9ece6a;
+@define-color red        #f7768e;
+@define-color orange     #e0af68;
+@define-color gray       #414868;
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+}
+
+window#waybar {
+    background-color: @background;
+    color: @foreground;
+    border-radius: 12px;
+    /* Thin 1px border to match your Hyprland windows */
+    border: 1px solid rgba(122, 162, 247, 0.3);
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* Glassy Module Styling */
+#custom-omarchy,
+#workspaces,
+#clock,
+#custom-weather,
+#network,
+#pulseaudio,
+#battery,
+#custom-power {
+    background-color: rgba(36, 40, 59, 0.4);
+    padding: 0px 10px;
+    margin: 4px 3px;
+    border-radius: 8px;
+    color: @foreground;
+    border: 1px solid rgba(255, 255, 255, 0.05); /* Subtle highlight */
+}
+
+/* Workspace Specifics */
+#workspaces button.active {
+    background: rgba(122, 162, 247, 0.2);
+    color: @blue;
+    border-bottom: 2px solid @blue;
+}
+
+#workspaces button:hover {
+    background: rgba(187, 154, 247, 0.15);
+}
+
+/* Colors for specific modules to match Tokyo Night */
+#network { color: @cyan; }
+#pulseaudio { color: @green; }
+#battery { color: @orange; }
+#custom-power { color: @red; }
+#clock { color: @blue; }
