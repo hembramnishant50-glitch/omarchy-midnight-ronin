@@ -15,7 +15,7 @@
 * **Copy Waybar Folder To .config/waybar:**
 
 ### ✨ Requirements & Dependencies
-* **Install Dependencies:**  pip install requests
+* **Install Dependencies:**  pip install requests + To run scripts/weather.py
 <div align="center">
 <pre><code>pip install requests --break-system-packages && chmod +x ~/.config/hypr/scripts/weather.py</code></pre>
 </div>
