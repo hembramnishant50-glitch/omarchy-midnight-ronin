@@ -11,8 +11,8 @@
 ## 🗡️ About the Theme
 **Omarchy Midnight Ronin** is a high-performance "rice" for users who value aesthetics without sacrificing speed. It blends the deep, calming purples of the midnight sky with the sharp, precise lines of a samurai aesthetic.
 
-### ✨ Requirements & Dependencies
-* **Install Dependencies:**  pip install requests
+### 🌟 To install only the Waybar
+* **Copy Waybar Folder To .config/waybar:**
 
 ### ✨ Requirements & Dependencies
 * **Install Dependencies:**  pip install requests
