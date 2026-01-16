@@ -17,7 +17,11 @@
 <pre><code>pip install requests --break-system-packages && chmod +x ~/.config/hypr/scripts/weather.py</code></pre>
 </div>
 
-* **Make the Script Executable:** ```bash chmod +x ~/.config/hypr/scripts/weather.py
+* **How to Edit the Location:** Locate this line in your script:   weather = requests.get("https://wttr.in/Purnia?format=j1").json()
+* <div align="center">
+<pre><code>weather = requests.get("https://wttr.in/Purnia?format=j1").json()</code></pre>
+</div>
+ 
 * 
 * **Set Your Location:** Open scripts/weather.py and locate the fetch line: Fetch Data: Find the line below and replace Purnia with your own city (e.g., London, Tokyo, or New-York).
 
