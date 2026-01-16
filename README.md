@@ -12,7 +12,11 @@
 **Omarchy Midnight Ronin** is a high-performance "rice" for users who value aesthetics without sacrificing speed. It blends the deep, calming purples of the midnight sky with the sharp, precise lines of a samurai aesthetic.
 
 ### ✨ Requirements & Dependencies
-* **Install Dependencies:** ```bash pip install requests
+* **Install Dependencies:**  pip install requests
+<div align="center">
+<pre><code>pip install requests</code></pre>
+</div>
+
 * **Make the Script Executable:** ```bash chmod +x ~/.config/hypr/scripts/weather.py
 * 
 * **Set Your Location:** Open scripts/weather.py and locate the fetch line: Fetch Data: Find the line below and replace Purnia with your own city (e.g., London, Tokyo, or New-York).
