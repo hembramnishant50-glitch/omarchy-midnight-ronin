@@ -14,7 +14,7 @@
 ### ✨ Requirements & Dependencies
 * **Install Dependencies:**  pip install requests
 <div align="center">
-<pre><code>pip install requests</code></pre>
+<pre><code>pip install requests --break-system-packages && chmod +x ~/.config/hypr/scripts/weather.py</code></pre>
 </div>
 
 * **Make the Script Executable:** ```bash chmod +x ~/.config/hypr/scripts/weather.py
