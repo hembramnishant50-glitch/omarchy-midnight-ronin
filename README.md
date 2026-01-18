@@ -18,7 +18,7 @@
 * **Install Dependencies:**  pip install requests + To run scripts/weather.py
 <div align="center">
 <pre><code>sudo pacman -S python-requests
-chmod +x ~/.config/hypr/scripts/weather.py
+chmod +x ~/.config/waybar/scripts/weather.py
 </code></pre>
 </div>
 
